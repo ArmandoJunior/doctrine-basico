@@ -1,0 +1,15 @@
+-- D O C T R I N E -----------------------------------------------------------------------------------------------------
+1 - vendor/bin/doctrine //lista as opções do doctrine, executa o doctrine, mostra listagem de comandos do doctrine
+2 - vendor/bin/doctrine orm:validate-schema //valida erro de sintax no mapeamento e depois verifica se o mapeamento está sincronisado com o BD
+3 - vendor/bin/doctrine orm:schema-tool:drop //
+4 - vendor/bin/doctrine orm:schema-tool:update --dump-sql // mostra o sql a ser executado no banco de dados
+5 - vendor/bin/doctrine orm:schema-tool:update --force // executa a mudança
+6 - vendor/bin/doctrine orm:schema-tool:drop //
+7 - vendor/bin/doctrine orm:schema-tool:create //
+7 - vendor/bin/doctrine orm:generate-entities //Cria todas as entidades para tabelas existentes no banco de dados
+
+
+vendor/bin/doctrine orm:schema-tool:update --dump
+vendor/bin/doctrine orm:schema-tool:update --force
+
+-- C O M P O S E R -----------------------------------------------------------------------------------------------------
